@@ -1,0 +1,58 @@
+.input-entry-error{
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  width: 250px;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px #bbb;
+  font-family: Arial;
+  padding: 12px;
+  display: none;
+}
+
+.input-entry-error .icon{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  background: rgb(250,171,32);
+  font-weight: bold;
+  color: #fff;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  border-radius: 3px;
+}
+
+.input-entry-error .arrow{
+  background: #fff;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -6px;
+  left: 20px;
+  transform: rotate(45deg);
+  border: 1px solid #aaa;
+  border-color: #aaa transparent transparent #aaa ;
+}
+
+.input-entry-error .text-content{
+  margin: 0 0 5px 37px;
+  width: 210px;
+  min-height: 40px;
+}
+
+.input-entry-error .text-content .error-text{
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.input-entry-error .text-content .tip{
+  font-size: 12px;
+  color: #555;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leitor de Palavras</title>
+	<link  rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mypattern.css"/>
+	<script src="js/linguagem6.js"></script>
+	<script src="js/linguagem7.js"></script>
+	<script src="js/linguagem8.js"></script>
+	<script src="js/linguagem9.js"></script>
+	<script src="js/jquery.min.js"></script>   
+	<script src="js/mypattern.js"></script>   
+	<meta charset="utf-8">
+	<!-- Desenvolvido Por Rômulo Brasil -->
+		<!-- Automâtos e Compiladores -->
+</head>
+<body>
+	<div id="container">
+		<img src="img/eng.gif">
+	</br>
+		<div id="box">
+			<h3>Linguagem 6: </h3> Possui "aaa" como subpalavra
+		</div>
+		<div id="box">
+			<h3>Linguagem 7: </h3> Possui número impar de "a"
+		</div>
+		<div id="box">
+			<h3>Linguagem 8: </h3> Possui número impar de "a" e impar de "b"
+		</div>
+		<div id="box">
+			<h3>Linguagem 9: </h3> Possui número impar de "a" e par de "b" ou impar de "b" e par de "a"
+		</div>
+
+	</br>
+		
+		<input type="text" id="palavra" placeholder="Digite a Palavra..." only-these-char="abcABC" text-for-valid="Apenas o Alfabeto [ABC] sem acento ou cedilha e numeros."></br>
+		<input id="button" type="submit" onclick="LinguagemA()" value="Linguagem 6">
+
+		<input id="button" type="submit" onclick="LinguagemB()" value="Linguagem 7">
+
+		<input id="button" type="submit" onclick="LinguagemC()" value="Linguagem 8">
+
+		<input id="button" type="submit" onclick="LinguagemD()" value="Linguagem 9">
+		<p id="valorDigitado"></p>
+
+		
+	</div>
+</body>
+	<!-- Desenvolvido Por Rômulo Brasil -->
+		<!-- Automâtos e Compiladores -->
+</html>
